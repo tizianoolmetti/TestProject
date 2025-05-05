@@ -15,7 +15,7 @@ class TestProjectTests: XCTestCase {
     }
     
     func testYourAppFeature() {
-        XCTAssertEqual(1 + 1, 2, "Basic math should work")
+        XCTAssertEqual(1 + 2, 2, "Basic math should work")
     }
     
     // Test per la validazione di un indirizzo email

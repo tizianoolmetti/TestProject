@@ -15,10 +15,7 @@ class TestProjectTests: XCTestCase {
     }
     
     func testYourAppFeature() {
-        // Write tests for your app's features
-        // For example, if you have a function that calculates something:
-        // let result = YourClass().calculateSomething()
-        // XCTAssertEqual(result, expectedValue)
+        XCTAssertEqual(1 + 1, 2, "Basic math should work")
     }
     
     // Test per la validazione di un indirizzo email
